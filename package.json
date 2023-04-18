@@ -1,0 +1,16 @@
+{
+  "name": "@cailiao/git-package-preview",
+  "version": "1.0.0",
+  "description": "git 仓库中预检 npm 包中依赖项是否存在修改",
+  "engines": {
+    "node": ">=14"
+  },
+  "bin": {
+    "git-package-preview": "bin/index.js"
+  },
+  "author": "cailiao",
+  "license": "ISC",
+  "dependencies": {
+    "@cailiao/system-dialog": "file:../system-dialog"
+  }
+}
